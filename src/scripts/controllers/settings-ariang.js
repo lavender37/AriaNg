@@ -232,7 +232,6 @@
         $scope.setShowPiecesInfoInTaskDetailPage = function (value) {
             ariaNgSettingService.setShowPiecesInfoInTaskDetailPage(value);
         };
-
         $scope.setAfterRetryingTask = function (value) {
             ariaNgSettingService.setAfterRetryingTask(value);
         };

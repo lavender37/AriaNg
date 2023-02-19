@@ -52,6 +52,7 @@
         includePrefixWhenCopyingFromTaskDetails: true,
         showPiecesInfoInTaskDetailPage: 'le10240',
         afterRetryingTask: 'task-list-downloading',
+        showUploadSpeedInTaskList: false,
         displayOrder: 'default:asc',
         fileListDisplayOrder: 'default:asc',
         peerListDisplayOrder: 'default:asc'

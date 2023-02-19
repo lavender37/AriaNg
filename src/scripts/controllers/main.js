@@ -407,7 +407,9 @@
 
             return orderType.equals(targetType);
         };
-
+        $scope.isSetShowUploadSpeedInTaskList = function() {
+            return ariaNgSettingService.getShowUploadSpeedInTaskList()
+        }
         $scope.showQuickSettingDialog = function (type, title) {
             $scope.quickSettingContext = {
                 type: type,

@@ -251,6 +251,19 @@
                             </select>
                         </div>
                     </div>
+                    <!-- 添加的内容 -->
+                    <div class="row">
+                        <div class="setting-key setting-key-without-desc col-sm-4">
+                            <span translate>Show Upload Speed In Task List Page</span>
+                        </div>
+                        <div class="setting-value col-sm-8">
+                            <select class="form-control" style="width: 100%;" ng-model="context.settings.showUploadSpeedInTaskList"
+                                    ng-change="setShowUploadSpeedInTaskList(context.settings.showUploadSpeedInTaskList)"
+                                    ng-options="option.value as (option.name | translate) for option in context.trueFalseOptions">
+                            </select>
+                        </div>
+                    </div>
+                    <!-- 添加内容完毕 -->
                     <div class="row">
                         <div class="setting-key setting-key-without-desc col-sm-4">
                             <span translate>Remove Old Tasks After Retrying</span>
