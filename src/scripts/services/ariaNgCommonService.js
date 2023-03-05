@@ -163,6 +163,8 @@
                         result.push(line);
                     } else if (line.match(/^magnet:\?.+$/)) {
                         result.push(line);
+                    } else if (line.match(/^[a-zA-Z0-9]{40}$/)) {
+                        result.push('magnet:?xt=urn:btih:' + line);
                     }
                 }
 
